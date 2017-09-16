@@ -1,0 +1,60 @@
+/*top menu*/
+.ms-compositeHeader-topWrapper{
+    background-color:#081c58;
+    margin-bottom:5px;
+}
+a.ms-HorizontalNavItem-link, a.ms-HorizontalNavItem-link:link, a.ms-HorizontalNavItem-link:active, a.ms-HorizontalNavItem-link:hover, .ms-HorizontalNavItem-link{
+    color: #fff;
+    background-color:#081c58;
+    height:32px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition:all 1.8s;
+}
+a.ms-HorizontalNavItem-link:hover{
+    background-color: #fe0000;
+    transition:all 0.8s;
+}
+[dir=ltr] .ms-HorizontalNavItem:not(:last-child){
+    margin-right:0px;
+}
+
+/*hide things*/
+.ms-siteHeader-siteLogo{
+    display: none;
+}
+/*menu area*/
+.ms-compositeHeader{
+    margin-bottom:0px;
+    background-color: #EDEDED;
+    border-bottom: 1px #081c58 solid;
+}
+.ms-siteHeader-siteInfo{
+    flex-direction: row;
+    display:block;
+    text-align: left;
+    padding-left:25px;
+}
+.ms-siteHeader-siteName{
+    padding-right:25px;
+}
+.ms-compositeHeader-mainLayout{
+    height: auto;
+    text-align: right;
+}
+.ms-compositeHeader-rightControls{
+    display: block;
+}
+.ms-compositeHeader-addnCommands, .ms-compositeHeader-peopleInfo{
+    display:inline-block;
+    padding-left:25px;
+}
+.ms-siteHeader-facepile, .ms-Facepile, .ms-siteHeader-membersInfo{
+    display: inline-block;
+}
+/*QuickLaunch*/
+.ms-Nav-compositeLink, .ms-Nav-compositeLink a, .ms-Nav-compositeLink:hover , .ms-Nav-compositeLink:hover, .ms-FocusZone .ms-Nav, .ms-Nav-link, .ms-Nav-link:hover, .ms-Nav-chevronButton{
+    background-color: #081c58;
+    color:#fff;
+}

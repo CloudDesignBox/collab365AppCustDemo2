@@ -1,0 +1,54 @@
+.myheader{
+    display: block;
+    background-color:#EDEDED;
+    border-bottom:1px #081c58 solid;
+    padding-right:10px;
+    .socialmediaholder{
+      display: block;
+      float: right;
+      .socialtileholder{
+        display: inline-block;
+        height: 68px;
+        width: 68px;
+        overflow: hidden;
+        padding-top:30px;
+      }
+      .socialtileholder:link .socialtile, .socialtileholder:active .socialtile, .socialtileholder .socialtile{
+        border-radius:0%;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+      }
+      .socialtileholder:hover .socialtile, .socialtileholder:focus .socialtile{
+        border-radius:50%;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+      }
+      .socialtile{
+        display: inline-block;
+        height: 68px;
+        width: 68px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:100% 100%;
+      }
+      .facebook{
+        background-image: url('https://clouddesignboxdev.sharepoint.com/sites/Team/SiteAssets/facebook.png');
+      }
+      .twitter{
+        background-image: url('https://clouddesignboxdev.sharepoint.com/sites/Team/SiteAssets/twitter.png');
+      }
+      .linkedin{
+        background-image: url('https://clouddesignboxdev.sharepoint.com/sites/Team/SiteAssets/linkedin.png');
+      }
+      .youtube{
+        background-image: url('https://clouddesignboxdev.sharepoint.com/sites/Team/SiteAssets/youtube.png');
+      }
+      .instagram{
+        background-image: url('https://clouddesignboxdev.sharepoint.com/sites/Team/SiteAssets/instagram.png');
+      }
+    }
+  }
