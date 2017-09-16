@@ -36,3 +36,11 @@ export default class CollabAppCustomizerApplicationCustomizer
     return Promise.resolve<void>();
   }
 }
+/**
+ * use this url to test:
+ * Replace "https://clouddesignboxdev.sharepoint.com/sites/team" with the URL of your test site
+ * Team site
+ * https://clouddesignboxdev.sharepoint.com/sites/team?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"92a422b6-b906-42c9-9c40-685b7ddc6593":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{"testMessage":"Hello as property!"}}}
+ * Communication site
+ * https://clouddesignboxdev.sharepoint.com/sites/communication?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"92a422b6-b906-42c9-9c40-685b7ddc6593":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{"testMessage":"Hello as property!"}}}
+ */
