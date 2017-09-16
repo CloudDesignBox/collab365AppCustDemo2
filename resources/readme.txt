@@ -1,0 +1,1 @@
+upload these files into a SharePoint document library and then reference in the typescript and SASS file.
